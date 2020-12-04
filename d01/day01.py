@@ -1,6 +1,6 @@
 def day_01():
-    with open('input.txt') as input:
-        ls = [int(i) for i in input]
+    with open('input.txt') as input_data:
+        ls = [int(i) for i in input_data]
 
         for x in range(len(ls)):
             for y in range(x + 1, len(ls)):

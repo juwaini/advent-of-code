@@ -24,15 +24,16 @@ def d02():
             posisi2 = int(posisi[1])
             char = tmp[1].split(':')[0]
             st = tmp[2]
-            if st[posisi1-1] == char:
+            if st[posisi1 - 1] == char:
                 cnt += 1
-            if st[posisi2-1] == char:
+            if st[posisi2 - 1] == char:
                 cnt += 1
 
             if cnt == 1:
                 new_correct += 1
 
         print(new_correct)
+
 
 if __name__ == '__main__':
     d02()
